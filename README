@@ -1,4 +1,10 @@
 random collections of EAGLE CAD boards, schematics, libraries, parts, ULPs, etc.
 
 lbr/SparkFun-LED_Tactile_Button.lbr - Device for SparkFun Electronics' LED Tactile Button.
-                                      COM-10439, COM-10440, COM-10441, COM-10442, COM-10443
+                                      SparkFun PROD_ID: COM-10439, COM-10440, COM-10441, COM-10442, COM-10443
+
+lbr/RHT03_DHT-22_AM2302.lbr - Device for the RHT03 / DHT-22 / AM2302 digital relative humidity and temperature sensor.
+                              Includes upright and right angle packages and basic header package for AM2302.
+                              SparkFun PROD_ID: SEN-10167
+
+RGB-LED_strip_calculator.ods - RGB LED strip calculator, calculates resistors, segment size, power use, efficiency, etc. for given source voltage, LED characteristics and resistor series.
