@@ -7,4 +7,7 @@ lbr/RHT03_DHT-22_AM2302.lbr - Device for the RHT03 / DHT-22 / AM2302 digital rel
                               Includes upright and right angle packages and basic header package for AM2302.
                               SparkFun PROD_ID: SEN-10167
 
+lbr/COM-10984.lbr - Device for SparkFun Electronics' Rotary Encoder - Illuminated (RGB, right-angle)
+                    SparkFun PROD_ID: COM-10984
+
 RGB-LED_strip_calculator.ods - RGB LED strip calculator, calculates resistors, segment size, power use, efficiency, etc. for given source voltage, LED characteristics and resistor series.
