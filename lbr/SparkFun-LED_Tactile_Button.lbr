@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -133,8 +133,8 @@ Package for SparkFun Electronics' LED Tactile Button.
 <pad name="SWA2" x="2.5" y="-6.25" drill="1.2" diameter="2" thermals="no"/>
 <pad name="SWB1" x="-2.5" y="6.25" drill="1.2" diameter="2.1" thermals="no"/>
 <pad name="SWB2" x="2.5" y="6.25" drill="1.2" diameter="2.1" thermals="no"/>
-<pad name="LEDA" x="-6.75" y="0" drill="0.8" shape="square" thermals="no"/>
-<pad name="LEDC" x="6.75" y="0" drill="0.8" thermals="no"/>
+<pad name="LEDA" x="-6.75" y="0" drill="0.8" thermals="no"/>
+<pad name="LEDC" x="6.75" y="0" drill="0.8" shape="square" thermals="no"/>
 <hole x="-4.5" y="0" drill="1.55"/>
 <hole x="4.5" y="0" drill="1.55"/>
 <wire x1="-1.27" y1="-5.08" x2="-0.508" y2="-5.08" width="0.254" layer="51"/>
@@ -181,14 +181,14 @@ http://creativecommons.org/licenses/by-sa/3.0
 <wire x1="-1" y1="-6" x2="-1" y2="-5" width="0.2032" layer="21"/>
 <wire x1="-1" y1="-5" x2="-4" y2="-5" width="0.2032" layer="21"/>
 <wire x1="-4" y1="-5" x2="-4" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-0.635" x2="0.635" y2="0" width="0.127" layer="21"/>
-<wire x1="0.635" y1="0" x2="-0.635" y2="0.635" width="0.127" layer="21"/>
-<wire x1="0.635" y1="0.635" x2="0.635" y2="0" width="0.127" layer="21"/>
-<wire x1="0.635" y1="0" x2="0.635" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="0.635" y2="0" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="0.635" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0.635" x2="-0.635" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0" x2="0.635" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-0.635" x2="-0.635" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="0.635" width="0.127" layer="21"/>
 <wire x1="0.635" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
 <circle x="4" y="4" radius="0.4" width="0.9" layer="21"/>
 <circle x="4" y="-4" radius="0.4" width="0.9" layer="21"/>
@@ -204,8 +204,8 @@ http://creativecommons.org/licenses/by-sa/3.0
 <text x="2" y="-4" size="1.016" layer="21" ratio="15" rot="R270">2</text>
 <text x="-3" y="4.8" size="1.016" layer="21" ratio="15" rot="R270">3</text>
 <text x="-3" y="-4" size="1.016" layer="21" ratio="15" rot="R270">4</text>
-<text x="-3.175" y="0.4445" size="1.27" layer="21" ratio="15" rot="R270">+</text>
-<text x="1.905" y="0.4445" size="1.27" layer="21" ratio="15" rot="R270">-</text>
+<text x="3.175" y="-0.4445" size="1.27" layer="21" ratio="15" rot="R90">+</text>
+<text x="-1.905" y="-0.4445" size="1.27" layer="21" ratio="15" rot="R90">-</text>
 <hole x="4.5" y="0" drill="1.6"/>
 <hole x="-4.5" y="0" drill="1.6"/>
 </package>
